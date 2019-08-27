@@ -16,5 +16,5 @@ spring:
   profiles: test #测试环境
   application:
     name: microservicecloud-config-hunybei-test
- server:
+server:
   port: 10000
