@@ -11,6 +11,7 @@ spring:
       name: microservicecloud-config-hunybei-dev
 server:
   port: 10001
+name: wzn-dev
 ---
 spring:
   profiles: test #测试环境
@@ -18,3 +19,4 @@ spring:
     name: microservicecloud-config-hunybei-test
 server:
   port: 10000
+name: wzn-2
