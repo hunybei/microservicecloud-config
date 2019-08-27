@@ -2,13 +2,19 @@ spring:
   profiles:
     active:
     - dev
+server:
+  port: 10000
 ---
 spring:
   profiles: dev #开发环境
   application:
       name: microservicecloud-config-hunybei-dev
+server:
+  port: 10001
 ---
 spring:
   profiles: test #测试环境
   application:
     name: microservicecloud-config-hunybei-test
+ server:
+  port: 10000
